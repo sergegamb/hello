@@ -1,7 +1,5 @@
-module example.com/hello
+module github.com/sergegamb/hello
 
 go 1.23.4
 
-replace example.com/greetings => ../greetings
-
-require github.com/sergegamb/greetings v0.0.0-20241217112648-18f53b820e8b
+require github.com/sergegamb/greetings v0.0.0-20241217142709-e761a7c8b646
